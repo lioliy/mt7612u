@@ -1,5 +1,5 @@
 ifeq ($(WIFI_MODE),)
-RT28xx_MODE = APSTA
+RT28xx_MODE = STA
 else
 RT28xx_MODE = $(WIFI_MODE)
 endif
